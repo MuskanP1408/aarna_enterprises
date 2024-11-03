@@ -1,0 +1,59 @@
+.container {
+    margin-top: 5%;
+}
+.container {
+  padding: 2rem;
+  background-color: #f8f9fa; /* Light background */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.row_1st {
+  margin-bottom: 2rem;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-family: 'Arial', sans-serif; /* Change font for header */
+  color: #007bff; /* Header color */
+}
+
+.col-md-6 {
+  margin-bottom: 1rem; /* Space between inputs */
+}
+
+input {
+  padding: 0.75rem; /* Adjust padding for better appearance */
+  border: 1px solid #ced4da; /* Light border */
+  border-radius: 4px; /* Rounded borders */
+  transition: border-color 0.3s ease; /* Smooth border color transition */
+}
+
+input:focus {
+  border-color: #007bff; /* Change border color on focus */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Glow effect */
+}
+
+MDBBtn {
+  width: 100%; /* Full-width button */
+  padding: 0.75rem; /* Adjust padding for better appearance */
+  background-color: #007bff; /* Button color */
+  border: none; /* No border */
+  border-radius: 4px; /* Rounded corners */
+  transition: background-color 0.3s ease; /* Smooth background transition */
+}
+
+MDBBtn:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+  cursor: pointer; /* Pointer cursor on hover */
+}
+
+.tooltip-inner {
+  background-color: #f8d7da; /* Tooltip background */
+  color: #721c24; /* Tooltip text color */
+}
+
+.tooltip-arrow {
+  border-top-color: #f8d7da; /* Tooltip arrow color */
+}
