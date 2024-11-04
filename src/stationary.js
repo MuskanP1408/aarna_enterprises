@@ -24,7 +24,7 @@ function Stationary() {
   return (
     <> 
       <MDBContainer>
-        <center><h2 className='heading'>Stationary</h2></center>
+        <center><h1 className='heading'>Stationary</h1></center>
         <br />
         <MDBRow>
           <MDBCol lg='4' md='12'>
