@@ -133,7 +133,7 @@ function App() {
       <MDBContainer fluid>
         <MDBCarousel showIndicators showControls fade>
           <MDBCarouselItem itemId={1}>
-            <img src={vegies} className='d-block w-100 carousel-image' alt='...' />
+            <img src={vegies} className='d-block w-100 carousel-img' alt='...' />
             <MDBCarouselCaption>
           <h4>VEGITABLES</h4>
           <p>"Explore fresh, seasonal vegetables that bring vibrant flavors and nutritious
@@ -141,14 +141,14 @@ function App() {
         </MDBCarouselCaption>
           </MDBCarouselItem>
           <MDBCarouselItem itemId={2}>
-            <img src={fruits} className='d-block w-100 carousel-image' alt='...' />
+            <img src={fruits} className='d-block w-100 carousel-img' alt='...' />
             <MDBCarouselCaption>
           <h4>FRUITS</h4>
           <p>"Indulge in handpicked selection of juicy, ripe fruits that burst with flavor and nutrition!"</p>
         </MDBCarouselCaption>
           </MDBCarouselItem>
           <MDBCarouselItem itemId={3}>
-            <img src={spices} className='d-block w-100 carousel-image' alt='...' />
+            <img src={spices} className='d-block w-100 carousel-img' alt='...' />
             <MDBCarouselCaption>
           <h4>SPICES</h4>
           <p>"Unlock a world of flavor with premium spices, expertly sourced to elevate every dish!"</p>
