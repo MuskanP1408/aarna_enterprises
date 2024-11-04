@@ -1,8 +1,9 @@
 
 /* //-----------------------carousel css-------------------// */
-.carousel-image {
+.carousel-img {
   height: 550px; /* Adjust this value as needed */
   object-fit: cover; /* This will maintain the aspect ratio */
+  width:100%;
 }
 
 .image-container {
