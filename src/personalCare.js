@@ -24,7 +24,7 @@ function PersonalCare() {
   return (
     <> 
       <MDBContainer>
-        <center><h2 className='heading'>PERSONAL CARE</h2></center>
+        <center><h1 className='heading'>PERSONAL CARE</h1></center>
         <br /><br />
         <MDBRow>
           <ProductCard image={fiama_soap} title="FIAMA SOAP" />
