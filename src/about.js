@@ -29,7 +29,7 @@ function About() {
 
 
       <MDBContainer fluid>
-      <img src={warehouse} className='d-block w-100 carousel-image' alt='...' />
+      <img src={warehouse} className='d-block w-100 carousel-img' alt='...' />
       <br></br>  <br></br>
       <MDBRow>
         <MDBCol lg='6'>
